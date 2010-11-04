@@ -1,0 +1,7 @@
+﻿<config>
+		<Path>D:\WORKSPACE\imacroswrappertest\src</Path>
+		<LogPath>\log</LogPath>
+		<ResourcesPath>\resources</ResourcesPath>
+		<ScriptPath>\iimScript</ScriptPath>
+		<Download>\download</Download>
+</config>
