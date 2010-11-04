@@ -2,7 +2,8 @@
 <classpath>
 	<classpathentry kind="src" path="src"/>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
-	<classpathentry kind="lib" path="jawin.jar"/>
-	<classpathentry kind="lib" path="junit.jar"/>
+	<classpathentry kind="lib" path="src/lib/imacrosAdapter.jar"/>
+	<classpathentry kind="lib" path="src/lib/jawin.jar"/>
+	<classpathentry kind="lib" path="src/lib/junit.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
