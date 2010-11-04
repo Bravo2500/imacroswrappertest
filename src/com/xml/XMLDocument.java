@@ -43,7 +43,7 @@ public final class XMLDocument {
 	}
 	
 	/**
-	 * ��ȡ�ĵ� 
+	 * 获取XML文档 
 	 * @param xmlBuilder
 	 * @return
 	 * @throws Exception
@@ -85,9 +85,9 @@ public final class XMLDocument {
 	}
 	
 	/**
-	 * ��ȡԪ��
-	 * @param name
-	 * @return
+	 * 获取对应XML节点的值
+	 * @param name 节点名
+	 * @return 节点值
 	 */
 	public Object getElementByTaName( final String name ){
 		LinkedList<Object>  list  =  xmlParser.values.get(name);
@@ -98,9 +98,9 @@ public final class XMLDocument {
 	}
 	
 	/**
-	 * 
-	 * @param name
-	 * @return
+	 * 获取一组对应XML节点的值
+	 * @param name 节点名
+	 * @return 节点值
 	 */
 	public Object[] getElementByTaNames( final String name ){
 		LinkedList<Object>  list  =  xmlParser.values.get(name);
@@ -119,8 +119,8 @@ public final class XMLDocument {
 }
 
 /**
- *
- * @author 
+ * XML解析器
+ * 
  */
 class XMLParser extends DefaultHandler{
 	

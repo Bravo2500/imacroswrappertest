@@ -21,7 +21,7 @@ public class Test_Log extends TestCase {
 	}
 	protected void setUp() throws Exception {
 		super.setUp();
-		XMLServlet.initWebServerConfig();
+		XMLServlet.initConfig();
 		iMacrosTestScript = new iMacrosAdapter();
 		iMacrosTestScript.iimInit();
 		path = System.getProperty("user.dir");

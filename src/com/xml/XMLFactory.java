@@ -28,7 +28,7 @@ public final class XMLFactory {
 	
 	/**
 	 * 
-	 * @param xmlFile  xml�ļ�
+	 * @param xmlFile 
 	 * @return
 	 * @throws Exception
 	 */

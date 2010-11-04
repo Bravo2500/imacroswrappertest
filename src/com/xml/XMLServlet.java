@@ -20,10 +20,10 @@ import com.xml.Manager;
 public class XMLServlet {
 
 	/**
-	 * 
-	 * @return
+	 * 读取初始化配置文件
+	 * @return 是否成功
 	 */
-	public static boolean initWebServerConfig() {
+	public static boolean initConfig() {
 		try {
 
 			XMLFactory xmlFactory = XMLFactory.getDefaultXMLFactory(new File(
